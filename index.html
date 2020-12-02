@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Site</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -12,23 +13,52 @@
         <h1>CC Travel</h1>
         <nav>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <section id="top-places">
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li id="indonesia">
+                <h3>Indonesia</h3>
+                <p>in Indonesia the food is SPICY</p>
+                <a href="#">Explore now</a>
+            </li>
+            <li id="australia">
+                <h3>Australia</h3>
+                <p>beware of the spiders</p>
+                <a href="#">Explore now</a>
+            </li>
+            <li id="switzerland">
+                <h3>Switzerland</h3>
+                <p>hi stan</p>
+                <a href="#">Explore now</a>
+            </li>
         </ul>
     </section>
     <main>
         <section id="search">
-            <form name="search">
+            <h3>Where do you want to go?</h3>
+
+            <form action="" method="get">
+
+                <input type="text" id="where-to" value="Where to go?">
+
+
+                <input type="text" id="date" value="DD/MM/YYY">
+
+                <select name="travel-type" id="travel-type">
+                    <option value="Travel Type">Travel Type</option>
+                    <option value="Package Holiday">Package Holiday</option>
+                    <option value="Adventure Holiday">Adventure Holiday</option>
+                    <option value="Cultural Experience">Culural Experience</option>
+                  </select>
+                <button>
+                    <type="button">Search
+                </button>
             </form>
         </section>
         <section id="destinations">
